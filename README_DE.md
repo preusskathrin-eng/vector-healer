@@ -58,3 +58,14 @@ Douglas-Peucker-Vereinfachung und Rundung der Koordinaten.
 
   * Prüfe die "Smart Simplify"-Logik in Skript 03. Stelle sicher, dass der Schwellenwert `area < 40` aktiv ist, um kleine Polygone vor der Vereinfachung zu schützen.
 
+---
+
+### ⚠️ Wichtiger Hinweis
+
+> ### 🛑 Hinweis zur Design-Eignung
+> Nicht jedes KI-generierte Bild ist für die radikale Web-Optimierung (Stufe 04/05) geeignet. 
+> 
+> * **Gut geeignet:** Klare Flächen, Comic-Stile, Logos, flache Illustrationen (wie der Vogel). Hier erreichen wir bis zu 95 % Reduktion.
+> * **Problematisch:** Extreme Fellstrukturen, komplexe Licht-Partikel oder sehr feine Verläufe (wie das Llama). 
+> 
+> **Warum?** Bei zu hoher Detaildichte können die mathematische Rundung und die Pfad-Vereinfachung zu „Spiderman-Netzen“ (diagonalen Linien) führen. In diesen Fällen empfiehlt es sich, bei **Stufe 03 (Topology Healed)** zu stoppen – das Ergebnis ist bereits deutlich sauberer als der Roh-Vektor, behält aber die nötige Präzision.
