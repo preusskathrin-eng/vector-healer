@@ -1,0 +1,5 @@
+svgelements
+shapely
+vtracer
+numpy
+Pillow
