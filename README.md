@@ -63,3 +63,17 @@ Douglas-Peucker simplification and coordinate rounding.
   * Check the "Smart Simplify" logic in Script 03. Ensure the `area < 40` threshold is active to protect small polygons.
 
 -----
+
+---
+
+### ⚠️ Design Suitability Note
+
+> ### 🛑 Disclaimer: Design Suitability
+> Please note that not all AI-generated designs are suitable for radical web distillation (Stage 04/05).
+> 
+> * **Ideal:** High-contrast shapes, flat illustrations, logos, and clear silhouettes (e.g., the Bird). These can be reduced by up to 95%.
+> * **Challenging:** Fur textures, complex lighting particles, or hyper-detailed gradients (e.g., the Llama). 
+> 
+> **The Reason:** Extreme detail density can cause "polygon bleeding" (diagonal artifacts) during coordinate rounding. If your design "breaks" in the final stage, we recommend using the output from **Stage 03 (Topology Healed)**. It offers a professional, merged path structure while preserving the micro-details required for complex subjects.
+
+---
